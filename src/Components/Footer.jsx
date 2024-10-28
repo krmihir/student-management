@@ -1,4 +1,3 @@
-// src/components/Footer.js
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -9,7 +8,6 @@ const Footer = () => {
         <Row>
           <Col className="text-center">
             <p>&copy; {new Date().getFullYear()} Student Management System</p>
-            {/* <p>Made with ❤️ by [Your Name]</p> */}
           </Col>
         </Row>
       </Container>

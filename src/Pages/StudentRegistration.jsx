@@ -1,6 +1,6 @@
 import React, { useState, useContext } from "react";
 import { Form, Button, Container, Row, Col, Card } from "react-bootstrap";
-import { StudentContext } from "../contexts/StudentContext";
+import { StudentContext } from "../Contexts/StudentContext";
 
 const StudentRegistration = () => {
   const { addStudent } = useContext(StudentContext);

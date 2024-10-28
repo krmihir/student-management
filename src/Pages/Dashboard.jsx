@@ -1,4 +1,3 @@
-// src/components/Dashboard.js
 import React, { useContext, useMemo } from "react";
 import { Bar } from "react-chartjs-2";
 import {
@@ -11,8 +10,8 @@ import {
   Legend,
 } from "chart.js";
 import { Card, Container, Row, Col } from "react-bootstrap";
-import { StudentContext } from "../contexts/StudentContext";
-import StudentRegistration from "./StudentRegistration";
+import { StudentContext } from "../Contexts/StudentContext";
+// import StudentRegistration from "./StudentRegistration";
 
 ChartJS.register(
   CategoryScale,

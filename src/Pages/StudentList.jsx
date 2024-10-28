@@ -1,4 +1,3 @@
-// src/StudentList.js
 import React, { useState, useContext } from "react";
 import { Table, Button, Form } from "react-bootstrap";
 import StudentDetail from "./StudentDetail";
